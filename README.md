@@ -7,7 +7,7 @@ A Fully Functional E-Commerce Website - submitted as a project for the course: *
 
 
 ## 🔗 Deployed Website Link
-- [E-commerce Website](https://afia45.github.io/21-days-of-Code---ASSIGNMENT-2--AFIA/)
+- [E-commerce Website](https://afia45.github.io/E-commerce-Website-Scarlet-Dawn-/index.html)
 
 
 
@@ -25,7 +25,7 @@ Not responsive to all devices, for best outcome view in Desktop sized screen
 
 ## Run Locally
 
-For experiencing full functionality of the project, run it locally.
+To experience the full functionality of the project, run it locally.
 
 - Clone the project
 - Start XAMPP (Apache and MySQL)
@@ -33,7 +33,7 @@ For experiencing full functionality of the project, run it locally.
 - Run it on any browser 
 
 ```bash
-  http://localhost/Scarlet%20Dawn/index.html
+  http://localhost/[Folder_name]/index.html
 ```
 
 
