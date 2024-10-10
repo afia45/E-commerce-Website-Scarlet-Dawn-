@@ -1,0 +1,356 @@
+<!-- <?php
+@include 'config.php';
+if(isset($_POST['add_to_cart'])){
+
+    $product_name= $_POST['product_name'];
+    $product_price= $_POST['product_price'];
+    $product_image= $_POST['product_img'];
+    $product_quantity= 1;
+
+    $select_cart= mysqli_query($conn,"SELECT * FROM `cart` WHERE name = '$product_name'");
+
+    if(mysqli_num_rows($select_cart)>0){
+        $message[]='Product already added to cart';
+    }else{
+        $insert_product=mysqli_query($conn, "INSERT INTO `cart`(name,price,image,quantity)
+        VALUES('$product_name','$product_price', '$product_image', '$product_quantity')");
+
+        $message[]='Product added to cart successful!';
+    }
+}
+
+?> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shop Page</title>
+</head>
+
+<body>
+    <!--
+    <section id="AA">
+        <h1>
+            <b>ROG</b>
+        </h1>
+    </section>
+    -->
+    <a id="top"></a>
+    <nav>
+        <div class="navBar">
+            <ul class="navlinks">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="customer.html">Reviews</a></li>
+            </ul>
+        </div>
+        <!-- <a href="cart.php" class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>0</span></a> -->
+    </nav>
+    
+
+    <!----------------------------------------------------------------------------->
+
+    <main>
+        <div class="bganimation">
+            <h1>
+                <br/>
+                <b>Our Shop</b>
+            </h1>
+            <section id="A">
+                <div class="container1">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/spatha x edited.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Spatha X</h2>
+                            <p>$149.00</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Spatha X">
+                                <input type="hidden" name="prod_price" value="$149.00">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/gladius iii edited.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Gladius III</h2>
+                            <p style="text-decoration:line-through;">$109.00</p><p>$89.99</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Gladius III">
+                                <input type="hidden" name="prod_price" value="$89.99">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container3">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/chakram x edited.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Chakram X</h2>
+                            <p>$159.99</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Chakram X">
+                                <input type="hidden" name="prod_price" value="$159.99">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+            <section id="B">
+                <div class="container1">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/alienware m15 r7.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Alienware M15 R7</h2>
+                            <p>$1,649.99</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Alienware M15 R7">
+                                <input type="hidden" name="prod_price" value="$1,649.99">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/alienware x15 r2.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Alienware X15 R2</h2>
+                            <p style="text-decoration:line-through;">$1,399.00</p><p>$1,099.00</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Alienware X15 R2">
+                                <input type="hidden" name="prod_price" value="$1,099.00">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container3">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/x17 2.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Alienware X17</h2>
+                            <p>$2,249.99</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Alienware X17">
+                                <input type="hidden" name="prod_price" value="$2,249.99">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            <section id="C">
+                <div class="container1">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/pit viper.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Pit Viper</h2>
+                            <p>$34.99</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                         
+                          
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Pit Viper">
+                                <input type="hidden" name="prod_price" value="$34.99">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/slyr.png"><input type="hidden" id="product_img" value="../img/transparent/slyr.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Slyr</h2>
+                            <p>$91.97</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                       
+
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Slyr">
+                                <input type="hidden" name="prod_price" value="$91.97">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container3">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="../img/transparent/indy independant red.png">
+                        </div>
+                        <div class="contentBox">
+                            <h2>Indy Independant</h2>
+                            <p style="text-decoration:line-through;">$69.99</p><p>$39.99</p>
+                            <div class="color">
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+
+                            <form action="checkout.php" method="post">
+                                <input type="hidden" name="prod_name" value="Indy Independant">
+                                <input type="hidden" name="prod_price" value="$39.99">
+                                <input type="submit" class="btn" value="Buy Now">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="madeby">
+            <p style="color:white">Created On 17-10-2022</p>
+            <p style="color:white">Founded By Afia Tabassum</p>
+            <p style="color:white">Copyrights Reserved</p>
+        </div>
+
+        <div class="credits">
+            <p style="color:white">Credits and Resource Links</p>
+            <a href="*" style="color:white">
+                <p>ROG</p>
+            </a>
+            <a href="*" style="color:white">
+                <p>SkullCandy</p>
+            </a>
+            <a href="*" style="color:white">
+                <p>Alienware</p>
+            </a>
+        </div>
+        <div class="upbutton">
+            <a href="#top"><i class='fa fa-angle-up'></i></a>
+        </div>
+    </footer>
+
+    <!-- <script>
+        const form = document.getElementById('form')
+        const img = document.getElementById('product_img');
+        const name = document.getElementById('product_name');
+        const price = document.getElementById('product_price');
+
+
+        form.addEventListener('submit',function(e){
+            e.preventDefault();
+
+            const imgValue = document.getElementById('product_img').value;
+            const nameValue = document.getElementById('product_name').value;
+            const priceValue= document.getElementById('product_price').value;
+
+
+            // const imgValue = img.value;
+            // const nameValue = name.value;
+            // const priceValue = price.value;
+
+            sessionStorage.setItem('product-img', imgValue);
+            sessionStorage.setItem('product-name', nameValue);
+            sessionStorage.setItem('product-price', priceValue);
+
+            window.location.href="checkout.html";
+
+        })
+    </script> -->
+</body>
+
+</html>
