@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <!-- <script src="about.js"></script> -->
+</head>
+<body>
+    <a id="top"></a>
+    <nav>
+        
+            <ul class="navlinks">
+            
+                <li><a href="home.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="customer.html">Reviews</a></li>
+            </ul>
+    </nav>
+    
+
+    <!----------------------------------------------------------------------------->
+
+    <main>
+        
+        <section id="A">
+            <h1>
+                <b>ABOUT US</b>
+            </h1>
+            <div class="cover">
+                <div class="mission_card">
+                    <div class="card__content">
+                        <div class="card__front">
+                            <h1 class="card__title">Our</br>Mission</h1>
+                            <!--<p class="card__subtitle">Time for some fun</p>-->
+                        </div>
+                        <div class="card__back">
+                            <p class="card__body">This would be some longer text that gives a description of the things from the
+                                other side I guess</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision_card">
+                    <div class="card__content">
+                        <div class="card__front">
+                            <h1 class="card__title">Our</br>Vision</h1>
+                        </div>
+                        <div class="card__back">
+                            <p class="card__body">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz
+                                prog.
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="values_card">
+                    <div class="card__content">
+                        <div class="card__front">
+                            <h1 class="card__title">Our</br>Values</h1>
+                        </div>
+                        <div class="card__back">
+                            <p class="card__body">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz
+                                prog.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="B">
+            <div class=who>
+                <h1><b>Our Team</b></h1>
+                <div class=profile>
+                    <div class="pro1">
+                        <img src="../img/afia.png" alt="designer">
+                        <p>
+                            <b>Product Designer</b>
+                            <br /><i>Touka Undergrove</i>
+                        </p>
+                    </div>
+                    <div class="pro2">
+                        <img src="../img/larry.png" alt="strategist">
+                        <p>
+                            <b>Marketing Strategist</b>
+                            <br /><em>Larry Page</em>
+                        </p>
+                    </div>
+                    <div class="pro3">
+                        <img src="../img/andrew.png" alt="scientist">
+                        <p>
+                            <b>Data Scientist</b>
+                            <br /><em>Andrew McCollin</em>
+                        </p>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+
+        <section id="C">
+            <div class=reach>
+                <h1><b>Reach Us</b></h1>
+                <div class="reachcover">
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8579.531396639963!2d91.7201231977358!3d22.495287336950028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdcf908f6e4f3a713!2sInternational%20Islamic%20University%20Chittagong!5e0!3m2!1sen!2sbd!4v1667193679444!5m2!1sen!2sbd" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="subtitle">
+                        <ul><b>
+                            <li>Location:</li>
+                            <li>Contact:</li>
+                            <li>Opening Hours:</li>
+                        </b></ul>
+                    </div>
+                    <div class="location">
+                        <ul>
+                            <li>IIUC, Sitakunda, Chittagong, Bangladesh</li>
+                            <li>+8801833349723</li>
+                            <li>Sat-Wed 8 AM-11 PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <script>
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    console.log(entry)
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                    }
+                    else {
+                        entry.target.classList.remove('show');
+                    }
+                });
+            });
+
+            const hiddenElements = document.querySelectorAll('.profile');
+            hiddenElements.forEach((el) => observer.observe(el));
+        </script>
+        <!--
+        <section id="B">
+            <div class="about">
+                <div class="circle1"></div>
+                <div class="line1"></div>
+                
+                <div class="infobox1">
+                    <h1>
+                        <b>About Us</b>
+                    </h1>
+                    <p>
+                        The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                        Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.
+                        Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
+                        Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack.
+                        Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.
+                        Charged fop blew my junk TV quiz.
+                        How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz.
+                        Quick, Baz, get my woven flax jodhpurs!
+                    </p>
+                </div>
+        
+            </div>
+
+            <div class="gallery">
+                <div class="circle2"></div>
+                <div class="line2"></div>
+                
+                <div class="infobox2">
+                    <h1>
+                        <b>Our Gallery</b>
+                    </h1>
+                    <p>
+                        The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                        Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.
+                        Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
+                        Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack.
+                        Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.
+                        Charged fop blew my junk TV quiz.
+                        How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz.
+                        Quick, Baz, get my woven flax jodhpurs!
+                    </p>
+                </div>
+            </div>
+
+            <div class="shop">
+                <div class="circle3"></div>
+                <div class="line3"></div>
+                
+                <div class="infobox3">
+                    <h1>
+                        <b>Our Shop</b>
+                    </h1>
+                    <p>
+                        The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                        Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.
+                        Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
+                        Brick quiz whangs jumpy veldt fox. Bright vixens jump; dozy fowl quack.
+                        Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.
+                        Charged fop blew my junk TV quiz.
+                        How quickly daft jumping zebras vex. Two driven jocks help fax my big quiz.
+                        Quick, Baz, get my woven flax jodhpurs!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="C">
+            <div class="customerreview">
+                <div class="reviewheading">
+                    <div class="thick-arrow-left"></div>
+                    <div class="triangleleft"></div>
+                    <div class="titlebox">
+                        <h2>Satisfied Customer Feedbacks</h2>
+                    </div>
+                    <div class="triangleright"></div>
+                    <div class="thick-arrow-right"></div>
+                </div>
+                <div class="review">
+                    <div class="quotelogo">
+                        <i class='fa fa-quote-left' style='font-size:48px;color:black'></i>
+                    </div>
+                    <div class="comment1">
+                        <p>
+                            The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                            Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.
+                            Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
+                            Brick quiz whangs
+                        </p>
+                        <br />
+                        <h5>Larry Gray</h5>
+                    </div>
+                    <div class="comment2">
+                        <p>
+                            The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                            Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.
+                            Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
+                            Brick quiz whangs
+                        </p>
+                        <br />
+                        <h5>Ash Kentucky</h5>
+                    </div>
+                    <div class="comment3">
+                        <p>
+                            The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+                            Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs.
+                            Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
+                            Brick quiz whangs
+                        </p>
+                        <br />
+                        <h5>Shizu Emy</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+        <footer>
+            <div class="madeby">
+                <p style="color:white">Created On 17-10-2022</p>
+                <p style="color:white">Founded By Afia Tabassum</p>
+                <p style="color:white">Copyrights Reserved</p>
+            </div>
+
+            <div class="credits">
+                <p style="color:white">Credits and Resource Links</p>
+                <a href="*" style="color:white"><p>ROG</p></a>
+                <a href="*" style="color:white"><p>SkullCandy</p></a>
+                <a href="*" style="color:white"><p>Alienware</p></a>
+            </div>
+            <div class="upbutton">
+                <a href="#top"><i class='fa fa-angle-up'></i></a>
+            </div>
+        </footer>
+
+    </main>
+</body>
+</html>
