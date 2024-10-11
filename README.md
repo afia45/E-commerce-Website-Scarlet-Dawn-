@@ -38,7 +38,7 @@ To experience the full functionality of the project, run it locally.
 ## 🔗 CSS Animation Inspirations (References)
 I found CSS background animations from this [site](https://freefrontend.com/css-animated-backgrounds/), I've customized/edited the animations to my taste!
 
-## Demo
+## 🔗 Demo
 
 Project demonstration is shown in the link below:
 - [Youtube](https://youtu.be/VOQwNz3usGc)
