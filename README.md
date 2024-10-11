@@ -35,7 +35,8 @@ To experience the full functionality of the project, run it locally.
 ```bash
   http://localhost/[Folder_name]/index.html
 ```
-
+## 🔗 CSS Animation Inspirations (References)
+I found CSS background animations from this [site](https://freefrontend.com/css-animated-backgrounds/), I've customized/edited the animations to my taste!
 
 ## Demo
 
