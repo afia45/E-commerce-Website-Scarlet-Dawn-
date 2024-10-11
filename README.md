@@ -36,7 +36,11 @@ To experience the full functionality of the project, run it locally.
   http://localhost/[Folder_name]/index.html
 ```
 ## 🔗 CSS Animation Inspirations (References)
-I found CSS background animations from this [site](https://freefrontend.com/css-animated-backgrounds/), I've customized/edited the animations to my taste!
+I found CSS background animations from these sites:
+- [CSS Background Animations](https://freefrontend.com/css-animated-backgrounds/)
+- [CSS Text Glitch Animation](https://www.youtube.com/watch?v=c-6XRnYHbkw)
+- [Card Hover Effect](https://www.youtube.com/watch?v=c-6XRnYHbkw),
+I've customized/edited the animations to my taste!
 
 ## 🔗 Demo
 
