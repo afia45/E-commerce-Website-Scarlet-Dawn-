@@ -47,5 +47,5 @@ I've customized/edited the animations to my taste!
 The project demonstration is shown in the link below:
 - [Youtube](https://youtu.be/VOQwNz3usGc)
 
-## Shop Page (SPeek) 
+## Shop Page (Peek) 
 ![Screenshot](/img/ss.png)
