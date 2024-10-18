@@ -36,7 +36,7 @@ To experience the full functionality of the project, run it locally.
   http://localhost/[Folder_name]/index.html
 ```
 ## 🔗 CSS Animation Inspirations (References)
-I found CSS background animations from these sites:
+I found inspiration of CSS background animations from these sites:
 - [CSS Background Animations](https://freefrontend.com/css-animated-backgrounds/)
 - [CSS Text Glitch Animation](https://freefrontend.com/css-text-glitch-effects/)
 - [Card Hover Effect](https://www.youtube.com/watch?v=c-6XRnYHbkw),
@@ -44,5 +44,8 @@ I've customized/edited the animations to my taste!
 
 ## 🔗 Demo
 
-Project demonstration is shown in the link below:
+The project demonstration is shown in the link below:
 - [Youtube](https://youtu.be/VOQwNz3usGc)
+
+##Shop Page (Peek) 
+![Screenshot](/img/ss1.png)
