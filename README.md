@@ -2,7 +2,8 @@
 # A Functional E-Commerce Website (Scarlet Dawn)
 
 A Functional E-Commerce Website - submitted as a project for the course: **CSE-3532	_Tools and Technologies for Internet Programming_**
-**Note:** This is a demonstration of a basic E-Commerce website, it lacks full functionality of an E-commerce with proper processing of transactions since it was built for educational and learning purpose only.
+
+- **Note:** This is a demonstration of a basic E-Commerce website, it lacks full functionality of an E-commerce with proper processing of transactions since it was built for educational and learning purpose only.
 
 
 ## Experimental & Educational Purpose
