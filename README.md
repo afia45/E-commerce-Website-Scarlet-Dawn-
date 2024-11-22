@@ -1,8 +1,8 @@
 
-# A Fully Functional E-Commerce Website (Scarlet Dawn)
+# A Functional E-Commerce Website (Scarlet Dawn)
 
-A Fully Functional E-Commerce Website - submitted as a project for the course: **CSE-3532	_Tools and Technologies for Internet Programming_**
-
+A Functional E-Commerce Website - submitted as a project for the course: **CSE-3532	_Tools and Technologies for Internet Programming_**
+**Note:** This is a demonstration of a basic E-Commerce website, it lacks full functionality of an E-commerce with proper processing of transactions since it was built for educational and learning purpose only.
 
 
 ## Experimental & Educational Purpose
@@ -21,9 +21,12 @@ In the link below, you'd notice I used a lot of different CSS styles, I did it s
 - PHP
 - MySQL
 - XAMPP - local server
-## Limitations
+## Limitations!!
 
-Not responsive to all devices, for best outcome view in Desktop sized screen
+- Not responsive to all devices, for best outcome view in Desktop sized screen
+- Does not have Add To Cart functionality
+- Does not fully process the payment transactions, only for demo purposes!
+- No admin panel
 
 
 ## Run Locally
