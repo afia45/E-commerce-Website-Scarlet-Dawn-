@@ -7,7 +7,7 @@ A Functional E-Commerce Website - submitted as a project for the course: **CSE-3
 
 
 ## Experimental & Educational Purpose
-In the link below, you'd notice I used a lot of different CSS styles, I did it so purely out of curiosity and experimental purposes, anything that felt "cool" I added them to my first ever functional site :D
+In the link below, you'd notice I used a lot of different CSS styles, I did it so purely out of curiosity and experimental purposes, anything that felt "sweet, i wanna try that" I added them to my first ever functional site :D
 (P.S. I added all the reference links for these CSS animations at the end)
 
 ## 🔗 Deployed Website Link (need XAMPP for full experience)
